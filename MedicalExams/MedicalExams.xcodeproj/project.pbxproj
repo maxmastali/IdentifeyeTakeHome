@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5066D3742BAD17F800299DF7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066D3732BAD17F800299DF7 /* main.swift */; };
+		5066D3A82BADF50400299DF7 /* MedicalServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5066D3A72BADF50400299DF7 /* MedicalServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +28,8 @@
 		5066D3732BAD17F800299DF7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5066D37A2BAD183A00299DF7 /* givenRequests.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = givenRequests.txt; sourceTree = "<group>"; };
 		5066D37C2BAD2CB700299DF7 /* newRequests.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = newRequests.txt; sourceTree = "<group>"; };
-		5066D3812BAD384A00299DF7 /* MedicalExamsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalExamsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5066D3A52BADF50400299DF7 /* MedicalServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5066D3A72BADF50400299DF7 /* MedicalServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5066D37E2BAD384A00299DF7 /* Frameworks */ = {
+		5066D3A22BADF50400299DF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				5066D3722BAD17F800299DF7 /* MedicalExams */,
+				5066D3A62BADF50400299DF7 /* MedicalServiceTests */,
 				5066D3712BAD17F800299DF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				5066D3702BAD17F800299DF7 /* MedicalExams */,
-				5066D3812BAD384A00299DF7 /* MedicalExamsTest.xctest */,
+				5066D3A52BADF50400299DF7 /* MedicalServiceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +76,14 @@
 				5066D3732BAD17F800299DF7 /* main.swift */,
 			);
 			path = MedicalExams;
+			sourceTree = "<group>";
+		};
+		5066D3A62BADF50400299DF7 /* MedicalServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				5066D3A72BADF50400299DF7 /* MedicalServiceTests.swift */,
+			);
+			path = MedicalServiceTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,21 +106,21 @@
 			productReference = 5066D3702BAD17F800299DF7 /* MedicalExams */;
 			productType = "com.apple.product-type.tool";
 		};
-		5066D3802BAD384A00299DF7 /* MedicalExamsTest */ = {
+		5066D3A42BADF50400299DF7 /* MedicalServiceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5066D3852BAD384A00299DF7 /* Build configuration list for PBXNativeTarget "MedicalExamsTest" */;
+			buildConfigurationList = 5066D3AB2BADF50400299DF7 /* Build configuration list for PBXNativeTarget "MedicalServiceTests" */;
 			buildPhases = (
-				5066D37D2BAD384A00299DF7 /* Sources */,
-				5066D37E2BAD384A00299DF7 /* Frameworks */,
-				5066D37F2BAD384A00299DF7 /* Resources */,
+				5066D3A12BADF50400299DF7 /* Sources */,
+				5066D3A22BADF50400299DF7 /* Frameworks */,
+				5066D3A32BADF50400299DF7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MedicalExamsTest;
-			productName = MedicalExamsTest;
-			productReference = 5066D3812BAD384A00299DF7 /* MedicalExamsTest.xctest */;
+			name = MedicalServiceTests;
+			productName = MedicalServiceTests;
+			productReference = 5066D3A52BADF50400299DF7 /* MedicalServiceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +136,7 @@
 					5066D36F2BAD17F800299DF7 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					5066D3802BAD384A00299DF7 = {
+					5066D3A42BADF50400299DF7 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -144,13 +155,13 @@
 			projectRoot = "";
 			targets = (
 				5066D36F2BAD17F800299DF7 /* MedicalExams */,
-				5066D3802BAD384A00299DF7 /* MedicalExamsTest */,
+				5066D3A42BADF50400299DF7 /* MedicalServiceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5066D37F2BAD384A00299DF7 /* Resources */ = {
+		5066D3A32BADF50400299DF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,10 +179,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5066D37D2BAD384A00299DF7 /* Sources */ = {
+		5066D3A12BADF50400299DF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5066D3A82BADF50400299DF7 /* MedicalServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +321,7 @@
 			};
 			name = Release;
 		};
-		5066D3862BAD384A00299DF7 /* Debug */ = {
+		5066D3A92BADF50400299DF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -318,7 +330,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MaxwellMastali.MedicalExamsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = MaxwellMastali.MedicalServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -328,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		5066D3872BAD384A00299DF7 /* Release */ = {
+		5066D3AA2BADF50400299DF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -337,7 +349,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MaxwellMastali.MedicalExamsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = MaxwellMastali.MedicalServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -368,11 +380,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5066D3852BAD384A00299DF7 /* Build configuration list for PBXNativeTarget "MedicalExamsTest" */ = {
+		5066D3AB2BADF50400299DF7 /* Build configuration list for PBXNativeTarget "MedicalServiceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5066D3862BAD384A00299DF7 /* Debug */,
-				5066D3872BAD384A00299DF7 /* Release */,
+				5066D3A92BADF50400299DF7 /* Debug */,
+				5066D3AA2BADF50400299DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
