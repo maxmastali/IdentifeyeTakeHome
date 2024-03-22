@@ -87,7 +87,7 @@ class MedicalService {
 
 }
 
-var service = MedicalService()
+let service = MedicalService()
 
 // Will need to change the filepath on your .txt input file
 let inputGivenFile = "/Users/Max/Desktop/IdentifeyeHEALTHTakeHome/MedicalExams/MedicalExams/givenRequests.txt"
